@@ -1,0 +1,206 @@
+body
+{
+  background: aliceblue;
+}
+
+.table
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 450px;
+  width: 850px;
+  margin: 2em;
+  margin-left: 25%;
+  background: #22773e;
+  border-radius: 20px;
+  border: 10px solid #542212;
+}
+
+.grid
+{
+  transform: translate(-40%);
+  display: grid;
+  margin: 4em;
+  grid-template-columns: repeat(14,1fr);
+  grid-template-rows: repeat(5,1fr);
+}
+
+.element
+{
+  position: relative;
+  border: 1px lightgrey solid;
+  border-radius: 3px;
+  width: 35px;
+}
+
+.element:hover
+{
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.element-text
+{
+  transform: rotate(-90deg);
+  position: absolute;
+  text-align: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 50px;
+  height: 55%;
+  color: white;
+  margin: auto;
+}
+
+.element-text-bottom
+{
+  transform: rotate(0deg);
+  height: 30%;
+}
+
+.element-bottom
+{
+  width: 100%;
+}
+
+#element0
+{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  background: #278b49;
+}
+
+#element0-text
+{
+  height: 15%;
+}
+
+#element1st
+{
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+#element2nd
+{
+  grid-column-start: 6;
+  grid-column-end: 10;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+#element3rd
+{
+  grid-column-start: 10;
+  grid-column-end: 14;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+#element1-18
+{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+#elementEVEN
+{
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+#elementRED
+{
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+.ruit
+{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  transform: rotate(45deg);
+  width: 25px;
+  height: 25px;
+  background: black;
+  border: 2px solid lightgrey;
+}
+
+.ruit-red
+{
+  background: #ff3333;
+}
+
+#elementBLACK
+{
+  grid-column-start: 8;
+  grid-column-end: 10;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+#elementODD
+{
+  grid-column-start: 10;
+  grid-column-end: 12;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+#element19-36
+{
+  grid-column-start: 12;
+  grid-column-end: 14;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+.red
+{
+  background: #ff3333;
+}
+
+.black
+{
+  background: black;
+}
+
+.chip
+{
+  width: 80%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 2;
+}
+
+.cheatBox
+{
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  background: black;
+  opacity: 0;
+  right: 30%;
+  top: 17%;
+  margin: auto;
+}

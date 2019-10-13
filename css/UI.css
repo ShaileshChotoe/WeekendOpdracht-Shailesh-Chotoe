@@ -1,0 +1,71 @@
+.UI
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1em;
+  width: 50%;
+  margin: auto;
+}
+
+.UI-item
+{
+  border-radius: 2px;
+  position: relative;
+  width: 100px;
+  height: 50px;
+  padding: 1em;
+  background: #0066cc;
+  border: 2px solid #008ae6;
+}
+
+.UI-item-text
+{
+  font-size: 1.5em;
+  color: lightgrey;
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+
+.UI-item:hover
+{
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.UI-item:hover .UI-item-text
+{
+  color: white;
+}
+
+.numbertext
+{
+  color: black;
+  font-size: 1.5em;
+}
+
+.UI-item-number
+{
+  position: relative;
+  width: 50px;
+  height: 50px;
+  padding: 1em;
+  background: lightgrey;
+  border:  1px solid grey;
+}
+
+.spin-button
+{
+  opacity: 1;
+}
+
+.clicked .spin-button
+{
+  opacity: 0.4;
+}

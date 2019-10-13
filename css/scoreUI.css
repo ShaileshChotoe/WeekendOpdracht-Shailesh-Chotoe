@@ -1,0 +1,124 @@
+.ScoreUI
+{
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(40, 1fr);
+  margin: auto;
+  margin-top: 2em;
+  background: #22773e;
+  border: 1px solid black;
+}
+
+#moneytype
+{
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+#moneyVal
+{
+  grid-column-start: 5;
+  grid-column-end: 10;
+}
+
+#betType
+{
+  grid-column-start: 10;
+  grid-column-end: 15;
+}
+
+#betVal
+{
+  grid-column-start: 15;
+  grid-column-end: 35;
+}
+
+#ScoreUI-item-coin
+{
+  position: relative;
+  grid-column-start: 35;
+  grid-column-end: 38;
+}
+
+#coinsVal
+{
+  grid-column-start: 38;
+  grid-column-end: 41;
+}
+
+.Ui-div
+{
+  background: green;
+  font-size: 1.2em;
+}
+
+
+.ScoreUI-item
+{
+  color: white;
+  text-align: center;
+  background: red;
+  padding: 0.5em;
+  border: 1px solid black;
+}
+
+.ScoreUI-item-val
+{
+
+}
+
+.ScoreUI-item-type
+{
+  color: lightgrey;
+  background: black;
+}
+
+.ScoreUI-item-text-bet
+{
+  color: black;
+  font-weight: lighter;
+  background: lightgrey;
+}
+
+#coinType
+{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.ScoreUI-coin
+{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 30px;
+}
+
+#moneyValue
+{
+  text-shadow:
+     -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+  color: white;
+  background: #b3b3b3;
+}
+
+#betValues
+{
+  background: #737373;
+}
+
+#coinvalue
+{
+  color: white;
+  background: #737373;
+}
